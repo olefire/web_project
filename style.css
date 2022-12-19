@@ -719,11 +719,10 @@ h6 {
     font-size: 12px;
     font-weight: 500;
 }
-
+/*sll kams w ek kl ;a;l*/
 .body__form .form__button:hover {
     background: none;
 }
-
 
 .services {
     padding: 100px 0 50px 0;
@@ -1318,10 +1317,7 @@ h6 {
     content: "";
     width: 280px;
 }
-
-
-
-
+/*Правка мер*/
 .reviews .caption {
     margin-bottom: 110px;
 }
@@ -1628,6 +1624,7 @@ h6 {
     background: none;
 }
 
+/*mf учтён для крйнего случая*/
 @media (max-width: 480px) {
     ._container {
         width: 100%;
