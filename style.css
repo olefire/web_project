@@ -396,6 +396,7 @@ h6 {
 }
 
 .menu__link {
+    display: inline-block;
     font-size: 12px;
     font-weight: 500;
     color: white;
