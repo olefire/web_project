@@ -1776,14 +1776,6 @@ h6 {
         border-bottom: 1px solid white;
     }
     
-    .menu__list .administering:hover .submenu {
-        display: none;
-    }
-
-    .menu__list .about:hover .submenu {
-        display: none;
-    }
-    
     .opened__adm{
         margin-bottom: 175px;
     }
