@@ -375,24 +375,27 @@ h6 {
     width: 150px;
 }
 
-.menu__list .administering:hover .submenu {
-    display: block;
-}
+@media (min-width: 481px) {
+    .menu__list .administering:hover .submenu {
+        display: block;
+    }
 
-.menu__list .administering a:hover::after {
-    width: 0;
-}
+    .menu__list .administering a:hover::after {
+        width: 0;
+    }
 
-.menu__list .about:hover .submenu {
-    display: block;
-}
+    .menu__list .about:hover .submenu {
+        display: block;
+    }
 
-.menu__list .about a:hover::after {
-    width: 0;
-}
+    .menu__list .about a:hover::after {
+        width: 0;
+    }
 
-.menu__list a:hover::after {
-    width: 100%;
+    .menu__list a:hover::after {
+        width: 100%;
+    }
+
 }
 
 .menu__link {
