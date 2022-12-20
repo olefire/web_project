@@ -1317,6 +1317,28 @@ h6 {
     content: "";
     width: 280px;
 }
+
+.team-group .entire__team {
+    font-size: 12px;
+    font-weight: 500;
+    color: #050C33;
+    border-radius: 5px;
+    background-color: white;
+    width: 260px;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid rgba(5, 12, 51, 0.2);
+    margin: 80px auto 0px auto;
+}
+
 /*Правка мер*/
 .reviews .caption {
     margin-bottom: 110px;
@@ -1723,7 +1745,7 @@ h6 {
 
     .menu__body .menu__list li {
         width: 100%;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid white;
         padding: 8px 20px;
         height: 39px;
     }
@@ -1741,15 +1763,13 @@ h6 {
     }
 
     .menu__body .menu__list .submenu {
-        margin-top: 15px;
+        margin-top: 5px;
         width: 100%;
-        display: block;
+        display: none;
         margin-left: -20px;
-        background-color: #424242;
+        background-color: black;
         padding: 0px;
-        border-top: 1px solid black;
-        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+        border-top: 1px solid white;
     }
 
     .menu__body .menu__list .submenu a {
@@ -1757,8 +1777,25 @@ h6 {
         display: block;
         height: 32px;
         padding: 10px 20px 10px 40px;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid white;
     }
+    
+    .opened__adm{
+        margin-bottom: 175px;
+    }
+
+    .menu__body .opened__adm .submenu{
+        display: block;
+    }
+
+    .opened__about{
+        margin-bottom: 130px;
+    }
+
+    .menu__body .opened__about .submenu{
+        display: block;
+    }
+
 
     .active {
         bottom: 0;
@@ -1771,9 +1808,9 @@ h6 {
         height: 100%;
         top: 0;
         left: 0;
-        background-color: #424242;
+        background-color: black;
         z-index: 10;
-        border-top: 1px solid black;
+        border-top: 1px solid white;
     }
 
     .header__pandaimg img {
