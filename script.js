@@ -4,6 +4,19 @@ $(document).ready(function () {
     });
 })
 
+$(document).ready(function () {
+    $('.administering').click(function (event) {
+        $('.administering').toggleClass('opened__adm');
+    });
+})
+
+
+$(document).ready(function () {
+    $('.about').click(function (event) {
+        $('.about').toggleClass('opened__about');
+    });
+})
+
 
 function emailHandler() {
     const re = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
