@@ -1722,7 +1722,7 @@ h6 {
         height: 620px;
         bottom: -200%;
         left: 0;
-        background-color: #424242;
+        background-color: black;
         z-index: 4;
         -webkit-transition: 0.3s;
         -o-transition: 0.3s;
