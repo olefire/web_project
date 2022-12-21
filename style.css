@@ -1778,6 +1778,7 @@ h6 {
     
     .opened__adm{
         margin-bottom: 160px;
+        transition: all 1000ms;
     }
 
     .menu__body .opened__adm .submenu{
@@ -1786,6 +1787,7 @@ h6 {
 
     .opened__about{
         margin-bottom: 160px;
+        transition: all 1000ms;
     }
 
     .menu__body .opened__about .submenu{
